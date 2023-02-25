@@ -1,0 +1,48 @@
+.content {
+  margin-top: 90px;
+}
+
+.thin-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+}
+
+.button {
+  background-color: var(--pink);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--green);
+  color: var(--black);
+}
+
+::-webkit-input-placeholder {
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+:-ms-input-placeholder {
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
