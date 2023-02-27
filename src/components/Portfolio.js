@@ -3,14 +3,101 @@ import React from "react";
 export default function Portfolio() {
   return (
     <>
-      PORTFOLIO ---- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Nunc pulvinar congue cursus. Integer non ipsum non eros auctor molestie.
-      Vestibulum ac risus nec lorem pellentesque sollicitudin sed nec mi. In
-      tortor urna, hendrerit vel justo et, dapibus feugiat enim. Curabitur ut
-      ligula dignissim, laoreet magna eget, consequat felis. Curabitur molestie,
-      nulla id sollicitudin dapibus, arcu eros ullamcorper libero, id
-      scelerisque neque nunc et leo. In mi libero, fermentum bibendum felis et,
-      rhoncus interdum magna.
+      <h1>My Portfolio</h1>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body"></div>
+              <div class="card-body">
+                <p className="card-text">SQL</p>
+                <a href="#" className="card-link">
+                  GitHub
+                </a>
+                <a href="#" className="card-link">
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

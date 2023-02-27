@@ -14,7 +14,7 @@ export default function Contact() {
               <div className="col-md-6 ml-auto">
                 <h3 className="thin-heading mb-4">Contact Info</h3>
                 <p>
-                  T: (203) 555-5555 <br /> E: info@arvestland.com
+                  Phone: (203) 555-5555 <br /> Email: info@arvestland.com
                 </p>
               </div>
             </div>

@@ -12,3 +12,9 @@ html {
   --orange: #ffb203;
   --white: #ffffff;
 }
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0;
+}
