@@ -1,0 +1,7 @@
+.download {
+  text-align: center;
+  background-color: var(--green);
+  padding: 2px;
+  border-radius: 5px;
+  width: 200px;
+}
