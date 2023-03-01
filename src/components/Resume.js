@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Resume.css";
 
-import download from "../images/download.png";
-
 import resume from "../misc/Resume.pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

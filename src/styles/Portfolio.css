@@ -1,3 +1,73 @@
-.card-text {
-  font-weight: bold;
+.portfolio-container {
+  width: 100%;
+  margin-top: 20px auto;
+}
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  margin: 25px auto;
+}
+
+.portfolio-items figure {
+  margin: auto;
+  flex-basis: calc(40% - 20px);
+  position: relative;
+}
+
+.portfolio-items img {
+  display: block;
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.portfolio-items img:hover {
+  -ms-transform: scale(0.9);
+  /* IE 9 */
+  transform: scale(0.9);
+}
+
+.hdr-tag {
+  position: absolute;
+  bottom: 35px;
+  left: 14px;
+  width: 120px;
+  font-size: 14px;
+  color: var(--lightgrey);
+  background-color: var(--darkblue);
+  padding: 5px;
+}
+
+.tag {
+  position: absolute;
+  bottom: 15px;
+  left: 14px;
+  width: 120px;
+  font-size: 10px;
+  color: var(--lightgrey);
+  background-color: var(--darkblue);
+  padding: 5px;
+}
+
+.hdr-tag-right {
+  position: absolute;
+  bottom: 35px;
+  right: 14px;
+  width: 120px;
+  font-size: 14px;
+  color: var(--lightgrey);
+  background-color: var(--darkblue);
+  padding: 5px;
+}
+
+.tag-right {
+  position: absolute;
+  bottom: 15px;
+  right: 14px;
+  width: 120px;
+  font-size: 14px;
+  color: var(--lightgrey);
+  background-color: var(--darkblue);
+  padding: 5px;
 }

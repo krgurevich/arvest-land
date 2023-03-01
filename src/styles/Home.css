@@ -1,14 +1,26 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-.intro-container {
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.top-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 75vh;
-  background-color: var(--black);
+  height: 350px;
+}
+.about-container {
+  width: 60%;
+  margin: 25px auto;
+}
+.about-p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
 }
 .wrapper {
   display: flex;
