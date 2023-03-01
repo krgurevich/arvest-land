@@ -22,7 +22,7 @@ export default function Footer() {
             <FontAwesomeIcon className="font-awesome" icon={faStackOverflow} />
           </a>
         </div>
-        <p className="footer-p">&copy;2023 Arvest Land | All Rights Reserved</p>
+        <p className="footer-p">&copy; 2023 Arvest Land | All Rights Reserved</p>
       </footer>
     </>
   );

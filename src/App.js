@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
 // Styles
-import "./App.css"
+import "./App.css";
 
 // Components
-import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -13,12 +12,9 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
     if (currentPage === "About") {
       return <About />;
     }

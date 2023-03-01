@@ -17,6 +17,7 @@ export default function Resume() {
             <ul class="list-group">
               <li class="list-group-item">HTML</li>
               <li class="list-group-item">Advanced CSS</li>
+              <li class="list-group-item">Responsive Design</li>
               <li class="list-group-item">JavaScript</li>
               <li class="list-group-item">jQuery</li>
               <li class="list-group-item">React.js</li>
@@ -30,6 +31,7 @@ export default function Resume() {
               <li class="list-group-item">No SQL/MongoDB</li>
               <li class="list-group-item">Node.js/Express.js</li>
               <li class="list-group-item">Progressive Web Applications</li>
+              <li class="list-group-item">MERN Stack</li>
             </ul>
           </div>
         </div>

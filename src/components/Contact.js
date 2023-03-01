@@ -1,20 +1,21 @@
 import React from "react";
 import "../styles/Contact.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressCard } from "@fortawesome/fontawesome-free-solid";
+
 export default function Contact() {
   return (
     <div className="content">
+      <h1>Contact Me</h1>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div className="row mb-5">
-              <div className="col-md-4 mr-auto">
-                <h3 className="thin-heading mb-4">Contact Me</h3>
-              </div>
-              <div className="col-md-6 ml-auto">
-                <h3 className="thin-heading mb-4">Contact Info</h3>
+              <div className="col-md-12 ml-auto">
                 <p>
-                  Phone: (203) 555-5555 <br /> Email: info@arvestland.com
+                <FontAwesomeIcon className="font-awesome" icon={faAddressCard} />
+                &nbsp;Phone: (203) 555-5555 <br /> Email: info@arvestland.com
                 </p>
               </div>
             </div>
