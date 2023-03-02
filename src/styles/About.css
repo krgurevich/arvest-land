@@ -100,4 +100,7 @@
   .dynamic-txts li span::after {
     bottom: 0;
   }
+  .about-p {
+    text-align: left;
+  }
 }

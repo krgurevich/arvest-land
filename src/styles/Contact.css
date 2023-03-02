@@ -24,6 +24,15 @@ p {
 #button:hover {
   background-color: var(--green);
   color: var(--black);
+  border: var(--green);
+}
+
+#button:active {
+  border: var(--green);
+}
+
+#button:focus {
+  border: var(--green);
 }
 
 ::-webkit-input-placeholder {
@@ -46,4 +55,8 @@ p {
 :-ms-input-placeholder {
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
+}
+.error-text {
+  color: var(--pink);
+  font-weight: bold;
 }

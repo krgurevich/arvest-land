@@ -27,13 +27,13 @@ export default function Resume() {
           <div className="col-md-6 mb-5">
             <h2>Back-End</h2>
             <ul class="list-group">
-              <li class="list-group-item">Node.js / Express.js / Jest</li>
-              <li class="list-group-item">SQL / MySQL / Sequelize</li>
+              <li class="list-group-item">Node.js | Express.js | Jest</li>
+              <li class="list-group-item">SQL | MySQL | Sequelize</li>
               <li class="list-group-item">No SQL / MongoDB / Mongoose</li>
               <li class="list-group-item">Object-Relational Mapping</li>
               <li class="list-group-item">Model View Controller</li>
               <li class="list-group-item">Progressive Web Applications</li>
-              <li class="list-group-item">MERN Stack / GraphQL / State</li>
+              <li class="list-group-item">MERN Stack | GraphQL | State</li>
             </ul>
           </div>
         </div>
