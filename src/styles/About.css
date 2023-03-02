@@ -18,6 +18,14 @@
   width: 60%;
   margin: 25px auto;
 }
+.hello {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: var(--pink);
+  color: var(--white);
+  border-radius: 3px;
+  padding: 2px;
+}
 .about-p {
   font-size: 20px;
   font-weight: 500;
@@ -26,6 +34,7 @@
 
 .wrapper {
   display: flex;
+  align-items: center;
 }
 .wrapper .static-txt {
   color: var(--white);
@@ -75,5 +84,20 @@
   }
   100% {
     left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .static-txt {
+    font-size: 30px;
+  }
+  .dynamic-txts li {
+    font-size: 30px;
+  }
+  .dynamic-txts {
+    margin-bottom: 5px;
+  }
+  .dynamic-txts li span::after {
+    bottom: 0;
   }
 }

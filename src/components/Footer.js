@@ -15,14 +15,22 @@ export default function Footer() {
           <a href="https://github.com/krgurevich" title="GitHub">
             <FontAwesomeIcon className="font-awesome" icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com/in/kristinagurevich" title="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/kristinagurevich"
+            title="LinkedIn"
+          >
             <FontAwesomeIcon className="font-awesome" icon={faLinkedin} />
           </a>
-          <a href="https://stackoverflow.com/users/5128386/kristina-g" title="Stackoverflow">
+          <a
+            href="https://stackoverflow.com/users/5128386/kristina-g"
+            title="Stackoverflow"
+          >
             <FontAwesomeIcon className="font-awesome" icon={faStackOverflow} />
           </a>
         </div>
-        <p className="footer-p">&copy; 2023 Arvest Land | All Rights Reserved</p>
+        <p className="footer-p">
+          &copy; 2023 Kristina Gurevich | All Rights Reserved
+        </p>
       </footer>
     </>
   );

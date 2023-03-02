@@ -1,23 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Header.css";
 
 import profile from "../images/profile_picture.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/fontawesome-free-solid";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header({ currentPage, handlePageChange }) {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <nav className="navbar">
-        <span className="navbar-toggle" id="js-navbar-toggle">
-          <i className="fas fa-bars"></i>
+        <span
+          className="navbar-toggle"
+          id="js-navbar-toggle"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? (
+            <FontAwesomeIcon icon={faXmark} />
+          ) : (
+            <FontAwesomeIcon icon={faBars} />
+          )}
         </span>
         <div className="logo-container">
           <p className="logo">Kristina Gurevich</p>
           <img className="logo-img" src={profile} alt="Kristina"></img>
         </div>
-        <ul className="main-nav" id="js-menu">
+        <ul className="main-nav" id="js-menu" style={{display: isOpen &&"block"}}>
           <li
             className={currentPage === "About" ? "active" : ""}
             onClick={() => {
