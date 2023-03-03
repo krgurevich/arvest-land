@@ -1,13 +1,16 @@
 import React from "react";
+
+// Import CSS
 import "../styles/About.css";
 
+// Content
 export default function About() {
   return (
     <div className="container-fluid">
       <div className="top-container">
         <div className="wrapper">
-          <div className="static-txt">I am a ...</div>
-          <ul className="dynamic-txts">
+          <div className="static-text">I am a ...</div>
+          <ul className="dynamic-texts">
             <li>
               <span>Web Designer</span>
             </li>

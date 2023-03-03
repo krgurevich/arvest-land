@@ -1,15 +1,21 @@
 import React, { useState } from "react";
+
+// Import CSS
 import "../styles/Header.css";
 
+// Import Profile Image
 import profile from "../images/profile_picture.png";
 
+// Import Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/fontawesome-free-solid";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
+// Set State for Current Page and Handle Page Change
 export default function Header({ currentPage, handlePageChange }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
+    // Navbar including mobile design functionality
     <>
       <nav className="navbar">
         <span

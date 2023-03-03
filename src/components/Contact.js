@@ -8,6 +8,7 @@ import { capitalizeFirstLetter, validateEmail } from "../utils/helpers";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressCard } from "@fortawesome/fontawesome-free-solid";
 
+// Set State for input fields and error messages
 const Contact = () => {
   const [formState, setFormState] = useState({
     name: "",
@@ -27,15 +28,15 @@ const Contact = () => {
   } = errorMessages;
   const [formStatus, setFormStatus] = useState(null);
 
+  // onChange functionality
   const handleInputChange = (e) => {
     // Value and Name upon change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
     setFormState({ ...formState, [inputType]: inputValue });
-
-    // Set email, name, and message
   };
+  // onBlur functionality
   const handleInputBlur = (event) => {
     if (event.target.name === "email") {
       const emailValid = validateEmail(event.target.value);
@@ -49,7 +50,7 @@ const Contact = () => {
         setErrorMessages({ ...errorMessages, email: "" });
       }
     }
-
+    // Error message functionality.  Capitalization of the name
     if (event.target.name === "name" || event.target.name === "message") {
       if (!event.target.value.length) {
         setErrorMessages({
@@ -69,7 +70,7 @@ const Contact = () => {
       setFormState({ ...formState, [event.target.name]: event.target.value });
     }
   };
-
+  // handleFormSubmit code, setting a confirmation message and clearing fields after it is sent
   const handleFormSubmit = (event) => {
     event.preventDefault();
     setFormStatus("Successfully sent");
@@ -79,6 +80,7 @@ const Contact = () => {
       message: "",
     });
   };
+  // Contact Form
   return (
     <div className="content">
       <h1>Contact Me</h1>
@@ -162,6 +164,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <p className="small-p">Phone Number and Email are for demonstration purposes only and are not monitored.</p>
     </div>
   );
 };

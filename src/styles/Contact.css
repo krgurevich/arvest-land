@@ -60,3 +60,7 @@ p {
   color: var(--pink);
   font-weight: bold;
 }
+.small-p {
+  font-size: 11px;
+  text-align: center;
+}

@@ -1,11 +1,16 @@
 import React from "react";
+
+// Import CSS
 import "../styles/Resume.css";
 
+// Import Resume File
 import resume from "../misc/Resume.pdf";
 
+// Import Font Awesome Icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/fontawesome-free-solid";
 
+// List of skills
 export default function Resume() {
   return (
     <>
