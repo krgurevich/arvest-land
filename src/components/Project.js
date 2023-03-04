@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/fontawesome-free-solid";
 import { faGithub } from "@fortawesome/fontawesome-free-brands";
 
+// Props to be used for Portfolio.js component
 const Project = ({ titleName, webLink, gitHubLink, imgLink }) => {
   return (
     <figure>

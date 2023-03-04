@@ -1,4 +1,6 @@
 import React from "react";
+
+// Import Project component
 import Project from "./Project";
 
 // Import CSS
@@ -41,7 +43,7 @@ export default function Portfolio() {
             webLink={"https://firefly-editor.herokuapp.com/"}
           />
           <Project
-            titleName={"NoSQL | MongoDB | Mongoose ODM | API"}
+            titleName={"MongoDB | Mongoose | API"}
             imgLink={mongo}
             gitHubLink={"https://github.com/krgurevich/epic-media"}
             webLink={
@@ -52,7 +54,7 @@ export default function Portfolio() {
         <hr></hr>
         <section className="portfolio-items">
           <Project
-            titleName={"SQL | MySQL | Node.js | Inquirer"}
+            titleName={"MySQL | Node.js | Inquirer"}
             imgLink={sql}
             gitHubLink={"https://github.com/krgurevich/hr-solutions"}
             webLink={
