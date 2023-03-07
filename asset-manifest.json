@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/arvest-land/static/css/main.42e16b07.css",
-    "main.js": "/arvest-land/static/js/main.cf8a12fd.js",
-    "static/media/sql.png": "/arvest-land/static/media/sql.97f06814348c659ca285.png",
-    "static/media/profile_picture.png": "/arvest-land/static/media/profile_picture.3d84b1206450f92ea8c3.png",
-    "static/media/mongo.png": "/arvest-land/static/media/mongo.48d08510467a71872609.png",
-    "static/media/javascript_api.png": "/arvest-land/static/media/javascript_api.3589c706996c3d7ca9af.png",
-    "static/media/Resume.pdf": "/arvest-land/static/media/Resume.5c3ece1cd77501beac8a.pdf",
-    "static/media/pwa.png": "/arvest-land/static/media/pwa.03acbc49e747ff31bb50.png",
-    "static/media/javascript.png": "/arvest-land/static/media/javascript.a7e0d767a799130358ba.png",
-    "static/media/mvc.png": "/arvest-land/static/media/mvc.2298574b51d348a29ff2.png",
-    "index.html": "/arvest-land/index.html",
-    "main.42e16b07.css.map": "/arvest-land/static/css/main.42e16b07.css.map",
-    "main.cf8a12fd.js.map": "/arvest-land/static/js/main.cf8a12fd.js.map"
+    "main.css": "/bookzilla/static/css/main.073c9b0a.css",
+    "main.js": "/bookzilla/static/js/main.18b221a7.js",
+    "static/js/787.8d98f353.chunk.js": "/bookzilla/static/js/787.8d98f353.chunk.js",
+    "static/media/logo.svg": "/bookzilla/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bookzilla/index.html",
+    "main.073c9b0a.css.map": "/bookzilla/static/css/main.073c9b0a.css.map",
+    "main.18b221a7.js.map": "/bookzilla/static/js/main.18b221a7.js.map",
+    "787.8d98f353.chunk.js.map": "/bookzilla/static/js/787.8d98f353.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e16b07.css",
-    "static/js/main.cf8a12fd.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.18b221a7.js"
   ]
 }
