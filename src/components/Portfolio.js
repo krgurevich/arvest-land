@@ -12,7 +12,7 @@ import mvc from "../images/mvc.png";
 import pwa from "../images/pwa.png";
 import mongo from "../images/mongo.png";
 import sql from "../images/sql.png";
-import javascript from "../images/javascript.png";
+import mern from "../images/mern.png";
 
 // Portfolio Cards
 export default function Portfolio() {
@@ -62,10 +62,10 @@ export default function Portfolio() {
             }
           />
           <Project
-            titleName={"JavaScript | Web API"}
-            imgLink={javascript}
-            gitHubLink={"https://github.com/krgurevich/js-maxcel"}
-            webLink={"https://krgurevich.github.io/js-maxcel/"}
+            titleName={"MERN Stack"}
+            imgLink={mern}
+            gitHubLink={"https://https://github.com/krgurevich/couchy"}
+            webLink={"https://mysterious-dusk-67486.herokuapp.com/"}
           />
         </section>
         <hr></hr>
