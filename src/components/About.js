@@ -22,8 +22,7 @@ export default function About() {
       </div>
       <div className="about-container">
         <p className="about-p">
-          <span className="hello">Hello!</span> My name is Kristina. I am
-          currently enrolled in the Columbia Engineering Full Stack Developer
+          <span className="hello">Hello!</span> My name is Kristina. I am a graduate of Columbia Engineering Full Stack Developer
           Program. I am fascinated with the prospect of developing websites and
           applications that would showcase the blended world of artistic
           creativity and logic, functionality and accessibility.
